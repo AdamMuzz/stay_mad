@@ -9,7 +9,7 @@ const HOUR = MIN * 60;
 const DAY = HOUR * 24;
 
 function App() {
-  const [time, set_time] = useState('');
+  const [time, set_time] = useState(parse_time());
 
   useEffect(() => {
     const updater = setInterval(() => set_time(parse_time()), 1000);
