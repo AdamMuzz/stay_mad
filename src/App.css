@@ -1,0 +1,31 @@
+.App {
+  background-color: #000;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+#logo {
+  width: 90vmin;
+  height: 90vmin;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  font-family:'Times New Roman', Times, serif;
+  font-size: calc(20px + 5vmin);
+  color: #fff;
+  margin: 0;
+}
+.bold {
+  font-weight: bold;
+}
