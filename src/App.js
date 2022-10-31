@@ -2,11 +2,16 @@ import logo from './logo.svg';
 import { useState, useEffect } from 'react';
 import './App.css';
 
-const LAUNCH_DATE = 1667160671000; // 10/30/22 1:11:11
+const LAUNCH_DATE = 1667769071000; // 11/06/22 1:11:11 PM
 const SEC = 1000;
 const MIN = SEC * 60;
 const HOUR = MIN * 60;
 const DAY = HOUR * 24;
+
+/*
+const temp = new Date('2022-11-06T13:11:11');
+console.log(temp.getTime())
+*/
 
 function App() {
   const [time, set_time] = useState(parse_time());
